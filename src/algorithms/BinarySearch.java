@@ -1,3 +1,5 @@
+package algorithms;
+
 /**
  *
  *  An implementation of Binary Search from scratch as described in

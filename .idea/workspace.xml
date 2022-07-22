@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="refactored implementation of binary search">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchAlt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearchRecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +39,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+  <component name="RunManager" selected="Application.algorithms.BinarySearch">
+    <configuration name="algorithms.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearch" />
       <module name="Hackerrank DSA basics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -55,7 +56,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.algorithms.BinarySearch" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
@@ -69,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657814237113</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactored implementation of binary search">
+      <created>1658299110583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658299110583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
