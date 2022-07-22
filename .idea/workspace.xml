@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="refactored implementation of binary search">
-      <change afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
+    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack">
+      <change afterPath="$PROJECT_DIR$/src/data_structures/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/BinarySearchRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658299110583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack">
+      <created>1658451528827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658451528827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactored implementation of binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored implementation of binary search" />
+    <MESSAGE value="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack" />
   </component>
 </project>

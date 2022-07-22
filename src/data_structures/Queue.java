@@ -29,10 +29,8 @@ public class Queue {
    private Node head;
    private Node tail;
 
+    /** inserts element to the tail of the array */
    private void add(int data){
-       /**
-        * inserts element to the tail of the array
-        */
        Node node  = new  Node(data);
        if (tail != null)
            tail.next = node;
@@ -41,28 +39,24 @@ public class Queue {
            head = node;
    }
 
+    /** Removes and returns the element at the head of the queue */
    private int remove() {
-       /**
-        * Removes and returns the element at the head of the queue
-        */
+
        // get the head to point to the next element in the array
        int data = head.data;
        head = head.next;
        if (head == null)
            tail = null;
-       return data;
+         return data;
    }
-
+    /**Returns true if the queue is empty */
    private boolean isEmpty(){
-       /**
-        * Returns true if the queue is empty
-        */
+
        return head == null;
    }
+    /** Returns element at the head of the array i.e. the first element */
     private int peek(){
-        /**
-         * Returns element at the head of the array i.e. the first element
-         */
+
         return head.data;
     }
 }
