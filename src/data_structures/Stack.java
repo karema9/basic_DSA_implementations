@@ -19,6 +19,8 @@ public class Stack {
     // end of the node class
 
     private Node top;
+
+
     /** Returns true if stack is empty **/
     public boolean isEmpty() {
         return top == null;

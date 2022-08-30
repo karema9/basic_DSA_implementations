@@ -2,12 +2,12 @@ package data_structures;
 
 /**
  * Implementation of the queue data structure
- *
+ * <p>
  * GUIDELINES
  * 1. define a node class
  * 2. define tail and head elements
  * 3. define methods supported by the queue class
- *
+ * <p>
  *  NOTICE: Focus on the element to be added  or removed
  *  elements are inserted to the tail
  *  elements are removed from the head

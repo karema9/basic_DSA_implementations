@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack">
-      <change afterPath="$PROJECT_DIR$/src/data_structures/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackAlt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_structures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,7 +44,33 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.algorithms.BinarySearch">
+  <component name="RunManager" selected="Application.StackGeneric">
+    <configuration name="StackAlt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackAlt" />
+      <module name="Hackerrank DSA basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structures.StackProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackGeneric" />
+      <module name="Hackerrank DSA basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structures.StackProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithms.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearch" />
       <module name="Hackerrank DSA basics" />
@@ -55,6 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackGeneric" />
+        <item itemvalue="Application.StackAlt" />
         <item itemvalue="Application.algorithms.BinarySearch" />
         <item itemvalue="Java Scratch.Scratch" />
       </list>
