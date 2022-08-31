@@ -39,8 +39,7 @@ public class StackAlt {
         arr[top] = value;
     }
     public int pop(){
-        if(isEmpty())
-            throw new IllegalStateException("Error :Stack is Empty");
+        if(isEmpty()) throw new IllegalStateException("Error :Stack is Empty");
         int topElement = arr[top];
         top--;
         return topElement;
