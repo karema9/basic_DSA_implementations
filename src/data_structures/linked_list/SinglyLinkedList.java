@@ -6,7 +6,7 @@ public class SinglyLinkedList<T> {
         private Node<T> next;
 
         public Node (T data, Node<T> n){
-            data = element;
+            element = data;
             next = n;
         }
 

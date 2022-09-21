@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="added a generic implementation of a stack">
-      <change afterPath="$PROJECT_DIR$/src/data_structures/linked_list/SinglyLinkedList.java" afterDir="false" />
+    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="added implementation of a linked list">
+      <change afterPath="$PROJECT_DIR$/src/data_structures/linked_list/CircularlyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structures/linked_list/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/StackProblems/StackAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/linked_list/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/c99/Desktop/other_workspace/algo-clinic/Hackerrank DSA basics"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.StackGeneric">
     <configuration name="StackAlt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackAlt" />
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661880348033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added implementation of a linked list">
+      <created>1661980641050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661980641050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +146,7 @@
     <MESSAGE value="refactored implementation of binary search" />
     <MESSAGE value="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack" />
     <MESSAGE value="added a generic implementation of a stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a generic implementation of a stack" />
+    <MESSAGE value="added implementation of a linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation of a linked list" />
   </component>
 </project>
