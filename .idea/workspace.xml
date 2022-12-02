@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="added implementation of a linked list">
-      <change afterPath="$PROJECT_DIR$/src/data_structures/linked_list/CircularlyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structures/linked_list/DoublyLinkedList.java" afterDir="false" />
+    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="added a dequeue class">
+      <change afterPath="$PROJECT_DIR$/src/interview_questions/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_questions/SequentialSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank DSA basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/etudes-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +39,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/c99/Desktop/other_workspace/algo-clinic/Hackerrank DSA basics&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/c99/Desktop/other_workspace/algo-clinic/Hackerrank DSA basics",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.StackGeneric">
+}]]></component>
+  <component name="RunManager" selected="Java Scratch.Scratch">
+    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview_questions.ArraySum" />
+      <module name="etudes-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview_questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequentialSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview_questions.SequentialSearch" />
+      <module name="etudes-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview_questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackAlt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackAlt" />
-      <module name="Hackerrank DSA basics" />
+      <module name="etudes-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="data_structures.StackProblems.*" />
@@ -57,20 +91,13 @@
     </configuration>
     <configuration name="StackGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackGeneric" />
-      <module name="Hackerrank DSA basics" />
+      <module name="etudes-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="data_structures.StackProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="algorithms.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearch" />
-      <module name="Hackerrank DSA basics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,10 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.SequentialSearch" />
+        <item itemvalue="Application.ArraySum" />
         <item itemvalue="Application.StackGeneric" />
         <item itemvalue="Application.StackAlt" />
-        <item itemvalue="Application.algorithms.BinarySearch" />
-        <item itemvalue="Java Scratch.Scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661980641050</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a dequeue class">
+      <created>1663966241290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663966241290</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +182,7 @@
     <MESSAGE value="Refactored the project packages,&#10;Added implementation of a queue&#10;Added implementation of a stack" />
     <MESSAGE value="added a generic implementation of a stack" />
     <MESSAGE value="added implementation of a linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="added implementation of a linked list" />
+    <MESSAGE value="added a dequeue class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a dequeue class" />
   </component>
 </project>
