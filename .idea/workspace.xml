@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="added a dequeue class">
-      <change afterPath="$PROJECT_DIR$/src/interview_questions/ArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview_questions/SequentialSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f60756f3-aefa-422a-ad11-36bdfbc0d5d3" name="Changes" comment="Added sequentialSearch and binary search implementations.">
+      <change afterPath="$PROJECT_DIR$/src/elementary_challenges/READ ME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elementary_challenges/SumProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elementary_challenges/SwitchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elementary_challenges/randomNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_questions/UniqueCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerrank DSA basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/etudes-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/StackProblems/StackLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/c99/Desktop/other_workspace/algo-clinic/Hackerrank DSA basics",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/c99/Desktop/other_workspace/algo-clinic/Hackerrank DSA basics&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
-    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview_questions.ArraySum" />
-      <module name="etudes-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.SumProduct">
     <configuration name="SequentialSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interview_questions.SequentialSearch" />
       <module name="etudes-Java" />
@@ -76,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackAlt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackAlt" />
+    <configuration name="SumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elementary_challenges.SumProduct" />
       <module name="etudes-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structures.StackProblems.*" />
+          <option name="PATTERN" value="elementary_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structures.StackProblems.StackGeneric" />
+    <configuration name="UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview_questions.UniqueCharacters" />
       <module name="etudes-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data_structures.StackProblems.*" />
+          <option name="PATTERN" value="interview_questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="randomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elementary_challenges.randomNumbers" />
+      <module name="etudes-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elementary_challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumProduct" />
+        <item itemvalue="Application.randomNumbers" />
         <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Application.UniqueCharacters" />
         <item itemvalue="Application.SequentialSearch" />
-        <item itemvalue="Application.ArraySum" />
-        <item itemvalue="Application.StackGeneric" />
-        <item itemvalue="Application.StackAlt" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663966241290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added sequentialSearch and binary search implementations.">
+      <created>1669988340966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669988340966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +190,7 @@
     <MESSAGE value="added a generic implementation of a stack" />
     <MESSAGE value="added implementation of a linked list" />
     <MESSAGE value="added a dequeue class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dequeue class" />
+    <MESSAGE value="Added sequentialSearch and binary search implementations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sequentialSearch and binary search implementations." />
   </component>
 </project>

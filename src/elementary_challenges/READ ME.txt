@@ -1,0 +1,15 @@
+These elementary challenges should serve as a warm
+up. They are very basic and serve to get you up to
+speed with the syntax.
+
+As the programmer advances, more challenging problem sets can
+be used to serve as a warm-up or recapitulation.
+
+Take it slow and follow the REACTO framework.
+
+Read
+Examples
+A
+Code
+Test
+Optimize
